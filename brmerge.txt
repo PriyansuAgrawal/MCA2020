@@ -1,2 +1,7 @@
 hello merge file
+<<<<<<< HEAD
 this is from hotfix
+=======
+i am adding content from testing
+>>>>>>> newbranch
+new content
