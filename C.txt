@@ -1,0 +1,69 @@
+cd Amitgit/
+  492  git init
+  493  ls
+  494  ls -lart
+  495  clear
+  496  git status
+  497  git add index.html
+  498  git status
+  499  git status
+  500  git restore index.html
+  501  git status
+  502  git restore index.html
+  503  clear
+  504  git add -A
+  505  git status
+  506  cat index.html
+  507  clear
+  508  git commit -m "index_1.0.0"
+  509  git log
+  510  git status
+  511  clear
+  512  git status
+  513  git log
+  514  clear
+  515  git add -A
+  516  git commit -m "Index_1.0.1"
+  517  git log
+  518  clear
+  519  git remote add constr https://github.com/akhileshsolanki/Amitgitremote.git
+  520  git remote
+  521  git push constr master
+  522  cat index.html
+  523  git status
+  524  git log
+  525  git pull constr master
+  526  cat index.html
+  527  git log
+  528  clear
+  529  git branch
+  530  alias graph="git log --all --decorate --oneline --graph"
+  531  graph
+  532  git branch Akhilesh
+  533  git branch
+  534  graph
+  535  git checkout Akhilesh
+  536  graph
+  537  git status
+  538  echo "This is form akhilesh " >> index.html
+  539  cat index.html
+  540  graph
+  541  git status
+  542  git add index.html
+  543  git status
+  544  git commit -m "Akhilesh_1.0.0"
+  545  graph
+  546  cat index.html
+  547  git checkout master
+  548  cat index.html
+  549  git checkout Akhilesh
+  550  git push constr Akhilesh
+  551  git checkout master
+  552  cat index.html
+  553  git merge Akhilesh master
+  554  cat index.html
+  555  git branch -d Akhilesh
+  556  git push constr master
+  557  git branch
+  558  clear
+  559  history
